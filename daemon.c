@@ -10,14 +10,26 @@
 #include <stdbool.h>
 #include <string.h>
 
+/* 
+gcc daemon.c -o daemon
+./daemon cmd.txt
+kill -SIGINT pid
+*/
+
 bool flag = false;
+bool termination = false;
 
 void catch_sigint(int signum) {
 	flag = true;
 }
 
-int Daemon() {
+void catch_sigterm(int signum) { 
+	termination = true;
+}
+
+int Daemon(char* filename) {
 	signal(SIGINT, catch_sigint);
+	signal(SIGTERM, catch_sigterm);
 
 	openlog("Daemon", LOG_PID | LOG_CONS, LOG_DAEMON);
 	syslog(LOG_NOTICE, "Daemon is working...");
@@ -27,17 +39,46 @@ int Daemon() {
 		if (flag) {
 			flag = false;
 			syslog(LOG_NOTICE, "Signal by user is catched");
-			char buf[] = "It's a daemon process.";
-			int fd = open("output.txt", O_CREAT | O_RDWR, S_IRWXU);
-			lseek(fd, 0, SEEK_END);
-			write(fd, buf, sizeof(buf) - 1);
-			close(fd);
+
+			pid_t pid;
+			pid = fork();
+
+			if (pid == 0) {
+				char buf[1000];
+				int command = open(filename, O_CREAT | O_RDWR, S_IRWXU);
+				int length = read(command, buf, sizeof(buf));
+				close(command);
+				buf[length - 1] = '\0';
+
+				int index = 0;
+				char *arguments[10];
+				char *cmd = strtok(buf, " ");
+				arguments[index++] = cmd;
+
+				while (cmd != NULL) {
+					cmd = strtok(NULL, " ");
+					arguments[index++] = cmd;
+				}
+				arguments[index] = NULL;
+
+				int output = open("output.txt", O_CREAT | O_RDWR | O_APPEND, S_IRWXU);
+				lseek(output, 0, SEEK_END);
+				close(1);
+				dup2(output, 1);
+
+				execve(arguments[0], arguments, NULL);
+			}
+			if (pid == -1) {
+				exit(EXIT_FAILURE);
+			}
+		}
+		if (termination) {
+			syslog(LOG_NOTICE, "Daemon is terminated");
 			closelog();
 			exit(EXIT_SUCCESS);
 		}
 	}
 }
-
 
 int main(int argc, char* argv[]) {
 	pid_t pid;
@@ -51,7 +92,7 @@ int main(int argc, char* argv[]) {
 	}
 	setsid(); 
 	pid = fork();
-	
+
 	if (pid == -1) {
 		exit(EXIT_FAILURE);
 	}
@@ -59,7 +100,7 @@ int main(int argc, char* argv[]) {
 		exit(EXIT_SUCCESS);
 	}
 	printf("My daemon is started. PID = %i\n", getpid());
-	int status = Daemon();  
+	int status = Daemon(argv[1]);
 	printf("My daemon is finished. Return code is %i", status);
 	return 0;
 }

@@ -1,0 +1,37 @@
+total 152
+drwxr-xr-x 19 anghellia anghellia 4096 May  3 23:39 .
+drwxr-xr-x  3 root      root      4096 Feb 19 12:39 ..
+-rw-------  1 anghellia anghellia 8034 May  3 23:36 .ICEauthority
+-rw-------  1 anghellia anghellia  173 May  3 23:36 .Xauthority
+-rw-------  1 anghellia anghellia    8 Feb 19 12:52 .bash_history
+-rw-r--r--  1 anghellia anghellia  220 Feb 19 12:39 .bash_logout
+-rw-r--r--  1 anghellia anghellia 3771 Feb 19 12:39 .bashrc
+drwx------ 15 anghellia anghellia 4096 May  2 13:11 .cache
+drwx------  3 anghellia anghellia 4096 Feb 19 12:52 .compiz
+drwx------ 16 anghellia anghellia 4096 May  2 10:44 .config
+-rw-r--r--  1 anghellia anghellia   25 Feb 19 12:50 .dmrc
+drwx------  2 anghellia anghellia 4096 Feb 19 12:51 .gconf
+drwx------  3 anghellia anghellia 4096 May  3 23:36 .gnupg
+drwx------  3 anghellia anghellia 4096 Feb 19 12:50 .local
+drwx------  5 anghellia anghellia 4096 Feb 19 12:54 .mozilla
+-rw-r--r--  1 anghellia anghellia  655 Feb 19 12:39 .profile
+drwx------  2 anghellia anghellia 4096 Apr 27 16:28 .remmina
+-rw-r--r--  1 anghellia anghellia    0 Apr 27 16:24 .sudo_as_admin_successful
+-rw-------  1 anghellia anghellia  278 May  3 23:36 .xsession-errors
+-rw-------  1 anghellia anghellia  278 May  3 22:22 .xsession-errors.old
+-rwx------  1 anghellia anghellia   12 May  2 13:08 cmd.txt
+drwxrwxrwx  2 anghellia anghellia 4096 Apr 27 17:14 code
+-rwxrwxr-x  1 anghellia anghellia 8080 May  3 23:39 daemon
+-rw-rw-r--  1 anghellia anghellia 1999 May  3 23:39 daemon.c
+-rw-r--r--  1 anghellia anghellia 8980 Feb 19 12:39 examples.desktop
+-rw-rw-r--  1 anghellia anghellia  341 Feb 27 09:53 fork.c
+-rw-rw-r--  1 anghellia anghellia  841 Mar 12 10:32 fork3.c
+-rwx------  1 anghellia anghellia    0 May  3 23:39 output.txt
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Видео
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Документы
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Загрузки
+drwxr-xr-x  2 anghellia anghellia 4096 May  2 13:11 Изображения
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Музыка
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Общедоступные
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Рабочий стол
+drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Шаблоны
