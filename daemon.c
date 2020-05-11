@@ -68,8 +68,9 @@ int Daemon(char* filename) {
 
 				execve(arguments[0], arguments, NULL);
 			}
-			if (pid == -1) {
-				exit(EXIT_FAILURE);
+			else {
+				int status;
+				wait(&status);
 			}
 		}
 		if (termination) {
@@ -91,14 +92,6 @@ int main(int argc, char* argv[]) {
 		exit(EXIT_SUCCESS);
 	}
 	setsid(); 
-	pid = fork();
-
-	if (pid == -1) {
-		exit(EXIT_FAILURE);
-	}
-	else if (pid != 0) {
-		exit(EXIT_SUCCESS);
-	}
 	printf("My daemon is started. PID = %i\n", getpid());
 	int status = Daemon(argv[1]);
 	printf("My daemon is finished. Return code is %i", status);
