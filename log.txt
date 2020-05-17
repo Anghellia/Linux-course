@@ -1,0 +1,6 @@
+Daemon starts its work
+Signal by user is catched
+Daemon executes command 1
+Daemon executes command 2
+Daemon executes command 3
+Daemon finished its work

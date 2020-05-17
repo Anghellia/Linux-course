@@ -1,1 +1,3 @@
-/bin/ls -l
+/bin/ls -r
+/bin/ps -aux
+/bin/ps

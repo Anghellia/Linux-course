@@ -1,37 +1,263 @@
-total 152
-drwxr-xr-x 19 anghellia anghellia 4096 May  3 23:39 .
-drwxr-xr-x  3 root      root      4096 Feb 19 12:39 ..
--rw-------  1 anghellia anghellia 8034 May  3 23:36 .ICEauthority
--rw-------  1 anghellia anghellia  173 May  3 23:36 .Xauthority
--rw-------  1 anghellia anghellia    8 Feb 19 12:52 .bash_history
--rw-r--r--  1 anghellia anghellia  220 Feb 19 12:39 .bash_logout
--rw-r--r--  1 anghellia anghellia 3771 Feb 19 12:39 .bashrc
-drwx------ 15 anghellia anghellia 4096 May  2 13:11 .cache
-drwx------  3 anghellia anghellia 4096 Feb 19 12:52 .compiz
-drwx------ 16 anghellia anghellia 4096 May  2 10:44 .config
--rw-r--r--  1 anghellia anghellia   25 Feb 19 12:50 .dmrc
-drwx------  2 anghellia anghellia 4096 Feb 19 12:51 .gconf
-drwx------  3 anghellia anghellia 4096 May  3 23:36 .gnupg
-drwx------  3 anghellia anghellia 4096 Feb 19 12:50 .local
-drwx------  5 anghellia anghellia 4096 Feb 19 12:54 .mozilla
--rw-r--r--  1 anghellia anghellia  655 Feb 19 12:39 .profile
-drwx------  2 anghellia anghellia 4096 Apr 27 16:28 .remmina
--rw-r--r--  1 anghellia anghellia    0 Apr 27 16:24 .sudo_as_admin_successful
--rw-------  1 anghellia anghellia  278 May  3 23:36 .xsession-errors
--rw-------  1 anghellia anghellia  278 May  3 22:22 .xsession-errors.old
--rwx------  1 anghellia anghellia   12 May  2 13:08 cmd.txt
-drwxrwxrwx  2 anghellia anghellia 4096 Apr 27 17:14 code
--rwxrwxr-x  1 anghellia anghellia 8080 May  3 23:39 daemon
--rw-rw-r--  1 anghellia anghellia 1999 May  3 23:39 daemon.c
--rw-r--r--  1 anghellia anghellia 8980 Feb 19 12:39 examples.desktop
--rw-rw-r--  1 anghellia anghellia  341 Feb 27 09:53 fork.c
--rw-rw-r--  1 anghellia anghellia  841 Mar 12 10:32 fork3.c
--rwx------  1 anghellia anghellia    0 May  3 23:39 output.txt
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Видео
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Документы
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Загрузки
-drwxr-xr-x  2 anghellia anghellia 4096 May  2 13:11 Изображения
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Музыка
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Общедоступные
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Рабочий стол
-drwxr-xr-x  2 anghellia anghellia 4096 Feb 19 12:50 Шаблоны
+Шаблоны
+Рабочий стол
+Общедоступные
+Музыка
+Изображения
+Загрузки
+Документы
+Видео
+output.txt
+log.txt
+fork3.c
+fork.c
+examples.desktop
+daemon.c
+daemon
+code
+cmd.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.3  0.4  23952  4928 ?        Ss   16:53   0:01 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    16:53   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/0:0]
+root         4  0.0  0.0      0     0 ?        I<   16:53   0:00 [kworker/0:0H]
+root         5  0.1  0.0      0     0 ?        I    16:53   0:00 [kworker/u2:0]
+root         6  0.0  0.0      0     0 ?        I<   16:53   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    16:53   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    16:53   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    16:53   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    16:53   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    16:53   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    16:53   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    16:53   0:00 [kdevtmpfs]
+root        14  0.0  0.0      0     0 ?        I<   16:53   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        S    16:53   0:00 [rcu_tasks_kthre]
+root        16  0.0  0.0      0     0 ?        S    16:53   0:00 [kauditd]
+root        17  0.0  0.0      0     0 ?        S    16:53   0:00 [khungtaskd]
+root        18  0.0  0.0      0     0 ?        S    16:53   0:00 [oom_reaper]
+root        19  0.0  0.0      0     0 ?        I<   16:53   0:00 [writeback]
+root        20  0.0  0.0      0     0 ?        S    16:53   0:00 [kcompactd0]
+root        21  0.0  0.0      0     0 ?        SN   16:53   0:00 [ksmd]
+root        22  0.0  0.0      0     0 ?        SN   16:53   0:00 [khugepaged]
+root        23  0.0  0.0      0     0 ?        I<   16:53   0:00 [crypto]
+root        24  0.0  0.0      0     0 ?        I<   16:53   0:00 [kintegrityd]
+root        25  0.0  0.0      0     0 ?        I<   16:53   0:00 [kblockd]
+root        26  0.0  0.0      0     0 ?        I<   16:53   0:00 [ata_sff]
+root        27  0.0  0.0      0     0 ?        I<   16:53   0:00 [md]
+root        28  0.0  0.0      0     0 ?        I<   16:53   0:00 [edac-poller]
+root        29  0.0  0.0      0     0 ?        I<   16:53   0:00 [devfreq_wq]
+root        30  0.0  0.0      0     0 ?        I<   16:53   0:00 [watchdogd]
+root        31  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/u2:1]
+root        32  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/0:1]
+root        34  0.0  0.0      0     0 ?        S    16:53   0:00 [kswapd0]
+root        35  0.0  0.0      0     0 ?        S    16:53   0:00 [ecryptfs-kthrea]
+root        77  0.0  0.0      0     0 ?        I<   16:53   0:00 [kthrotld]
+root        78  0.0  0.0      0     0 ?        I<   16:53   0:00 [acpi_thermal_pm]
+root        79  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/u2:2]
+root        80  0.0  0.0      0     0 ?        S    16:53   0:00 [scsi_eh_0]
+root        81  0.0  0.0      0     0 ?        I<   16:53   0:00 [scsi_tmf_0]
+root        82  0.0  0.0      0     0 ?        S    16:53   0:00 [scsi_eh_1]
+root        83  0.0  0.0      0     0 ?        I<   16:53   0:00 [scsi_tmf_1]
+root        84  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/u2:3]
+root        85  0.0  0.0      0     0 ?        I<   16:53   0:00 [ipv6_addrconf]
+root        95  0.0  0.0      0     0 ?        I<   16:53   0:00 [kstrp]
+root       112  0.0  0.0      0     0 ?        I<   16:53   0:00 [charger_manager]
+root       113  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/0:2]
+root       162  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/0:3]
+root       164  0.0  0.0      0     0 ?        I<   16:53   0:00 [kworker/0:1H]
+root       165  0.0  0.0      0     0 ?        S    16:53   0:00 [scsi_eh_2]
+root       166  0.0  0.0      0     0 ?        I<   16:53   0:00 [scsi_tmf_2]
+root       167  0.0  0.0      0     0 ?        I<   16:53   0:00 [ttm_swap]
+root       168  0.0  0.0      0     0 ?        S    16:53   0:00 [irq/10-vmwgfx]
+root       191  0.0  0.0      0     0 ?        S    16:53   0:00 [jbd2/sda1-8]
+root       192  0.0  0.0      0     0 ?        I<   16:53   0:00 [ext4-rsv-conver]
+root       228  0.0  0.2   5864  2964 ?        Ss   16:53   0:00 /lib/systemd/systemd-journald
+root       261  0.1  0.3  14992  4088 ?        Ss   16:53   0:00 /lib/systemd/systemd-udevd
+systemd+   282  0.0  0.2  12616  2360 ?        Ssl  16:53   0:00 /lib/systemd/systemd-timesyncd
+root       333  0.0  0.0      0     0 ?        I<   16:53   0:00 [iprt-VBoxWQueue]
+root       585  0.0  0.2   4172  2956 ?        Ss   16:53   0:00 /lib/systemd/systemd-logind
+root       586  0.0  0.7  41612  8116 ?        Ssl  16:53   0:00 /usr/lib/accountsservice/accounts-daemon
+root       624  0.0  0.1   2248  1108 ?        Ss   16:53   0:00 /usr/sbin/acpid
+root       625  0.0  0.6  15692  7052 ?        Ss   16:53   0:00 /usr/sbin/cupsd -l
+message+   629  0.1  0.4   6936  4612 ?        Ss   16:53   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       661  0.0  1.4  84284 15320 ?        Ssl  16:53   0:00 /usr/sbin/NetworkManager --no-daemon
+root       662  0.0  0.2   6804  2764 ?        Ss   16:53   0:00 /usr/sbin/cron -f
+avahi      665  0.0  0.3   5924  3084 ?        Ss   16:53   0:00 avahi-daemon: running [anghellia.local]
+syslog     668  0.0  0.3  30880  3364 ?        Ssl  16:53   0:00 /usr/sbin/rsyslogd -n
+root       670  0.0  1.2 853864 12900 ?        Ssl  16:53   0:00 /usr/lib/snapd/snapd
+avahi      741  0.0  0.0   5924   276 ?        S    16:53   0:00 avahi-daemon: chroot helper
+root       742  0.0  0.8  37568  9024 ?        Ssl  16:53   0:00 /usr/sbin/cups-browsed
+root       752  0.0  0.7  45792  7576 ?        SLsl 16:53   0:00 /usr/sbin/lightdm
+root       754  0.0  0.9  42980  9856 ?        Ssl  16:53   0:00 /usr/lib/policykit-1/polkitd --no-debug
+lp         768  0.0  0.4  11240  5060 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         769  0.0  0.4  11240  5060 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         770  0.0  0.5  11240  5160 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         771  0.0  0.4  11240  4972 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         772  0.0  0.4  11240  5016 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         773  0.0  0.4  11240  5088 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         774  0.0  0.4  11240  5092 ?        S    16:53   0:00 /usr/lib/cups/notifier/dbus dbus://
+root       779  5.0  6.5 171960 66932 tty7     Ssl+ 16:53   0:17 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       809  0.0  0.3   6016  3140 ?        S    16:53   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-882ec0d0-5b21-3e7f-97ef-0cd32d67e5f5-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+nobody     825  0.0  0.3  10384  4028 ?        S    16:53   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+whoopsie  1019  0.0  1.1  58676 11532 ?        Ssl  16:53   0:00 /usr/bin/whoopsie -f
+root      1040  0.0  0.1   4752  1644 tty1     Ss+  16:53   0:00 /sbin/agetty --noclear tty1 linux
+root      1065  0.0  0.5  27944  5928 ?        Sl   16:53   0:00 lightdm --session-child 12 19
+rtkit     1128  0.0  0.2  23792  2932 ?        SNsl 16:53   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1159  0.0  0.9  81348  9268 ?        Ssl  16:53   0:00 /usr/lib/upower/upowerd
+root      1161  0.0  0.4  27016  4920 ?        Ss   16:53   0:00 /usr/sbin/nmbd -D
+colord    1187  0.0  1.1  45240 11820 ?        Ssl  16:53   0:00 /usr/lib/colord/colord
+root      1194  0.0  1.4  43532 15184 ?        Ss   16:53   0:00 /usr/sbin/smbd -D
+root      1197  0.0  0.5  41696  5384 ?        S    16:53   0:00 /usr/sbin/smbd -D
+root      1207  0.0  0.6  43540  6312 ?        S    16:53   0:00 /usr/sbin/smbd -D
+anghell+  1217  0.0  0.4   6392  4328 ?        Ss   16:54   0:00 /lib/systemd/systemd --user
+anghell+  1218  0.0  0.1   7552  1284 ?        S    16:54   0:00 (sd-pam)
+anghell+  1292  0.0  0.6  40268  6560 ?        Sl   16:54   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+anghell+  1295  0.0  0.4   9972  4460 ?        Ss   16:54   0:00 /sbin/upstart --user
+anghell+  1380  0.0  0.0   8704   224 ?        S    16:54   0:00 upstart-udev-bridge --daemon --user
+anghell+  1382  0.2  0.3   6736  3768 ?        Ss   16:54   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-eJNOtCXvAU
+anghell+  1394  0.0  0.8  47036  8312 ?        Ss   16:54   0:00 /usr/lib/i386-linux-gnu/hud/window-stack-bridge
+anghell+  1415  0.0  0.0   8600   232 ?        S    16:54   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+anghell+  1417  0.0  0.0   8600   236 ?        S    16:54   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+anghell+  1420  0.0  0.0   8920   312 ?        S    16:54   0:00 upstart-file-bridge --daemon --user
+anghell+  1437  0.3  0.7  41032  7940 ?        Ssl  16:54   0:01 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+anghell+  1451  0.1  2.5  76536 26068 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/bamf/bamfdaemon
+anghell+  1456  0.0  0.5  39712  6124 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd
+anghell+  1462  0.0  0.6  52820  6592 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+anghell+  1465  0.0  0.7  40164  7496 ?        Sl   16:54   0:00 /usr/lib/ibus/ibus-dconf
+anghell+  1473  0.1  2.6  97756 27504 ?        Sl   16:54   0:00 /usr/lib/ibus/ibus-ui-gtk3
+anghell+  1482  0.0  0.6  46060  6864 ?        Sl   16:54   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+anghell+  1487  0.0  0.3   6068  3692 ?        S    16:54   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+anghell+  1490  0.0  0.4  29176  4776 ?        Sl   16:54   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+anghell+  1494  0.0  1.9  64796 20112 ?        Sl   16:54   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+anghell+  1502  0.1  0.6  31876  6876 ?        Sl   16:54   0:00 /usr/lib/ibus/ibus-engine-simple
+anghell+  1503  0.0  0.0  25660   668 ?        Ss   16:54   0:00 gpg-agent --homedir /home/anghellia/.gnupg --use-standard-socket --daemon
+anghell+  1518  0.2  3.4 129796 34904 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/hud/hud-service
+anghell+  1520  0.1  2.8 259212 29156 ?        Ssl  16:54   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+anghell+  1535  0.0  1.3  92612 13688 ?        Ssl  16:54   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+anghell+  1544  0.2  3.0 107544 31008 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/unity/unity-panel-service
+anghell+  1570  0.0  0.4  25388  4672 ?        Sl   16:54   0:00 /usr/lib/dconf/dconf-service
+anghell+  1577  0.0  0.9 168380  9992 ?        S<l  16:54   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+anghell+  1591  0.0  0.8  50684  8828 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+anghell+  1592  0.0  0.7  48224  7356 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+anghell+  1596  0.0  1.0  51224 10292 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-power/indicator-power-service
+anghell+  1599  0.0  1.4 135404 14532 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-datetime/indicator-datetime-service
+anghell+  1601  0.0  2.2 130424 23188 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+anghell+  1602  0.0  1.0 325888 11076 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+anghell+  1605  0.0  2.2  78024 22724 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-printers/indicator-printers-service
+anghell+  1610  0.0  0.7  73212  7920 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-session/indicator-session-service
+anghell+  1623  0.0  1.1  66192 11508 ?        Ssl  16:54   0:00 /usr/lib/i386-linux-gnu/indicator-application/indicator-application-service
+anghell+  1659  0.0  2.0 125492 20860 ?        Sl   16:54   0:00 /usr/lib/evolution/evolution-source-registry
+anghell+  1674 19.7 16.9 350768 172888 ?       Ssl  16:54   1:01 compiz
+anghell+  1695  0.0  4.5 166076 46500 ?        Sl   16:54   0:00 /usr/lib/evolution/evolution-calendar-factory
+anghell+  1702  1.2  4.2 149004 43052 ?        Sl   16:54   0:03 nautilus -n
+anghell+  1704  0.0  3.0 120300 30692 ?        Sl   16:54   0:00 nm-applet
+anghell+  1718  0.0  0.8  42564  8968 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+anghell+  1719  0.4  6.0 152276 62004 ?        SLl  16:54   0:01 /usr/bin/gnome-software --gapplication-service
+anghell+  1723  0.0  1.8  64272 18968 ?        Sl   16:54   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+anghell+  1725  0.0  1.9  80564 20188 ?        Sl   16:54   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+root      1732  0.0  0.8  55984  8952 ?        Ssl  16:54   0:00 /usr/lib/udisks2/udisksd --no-debug
+anghell+  1749  0.0  0.4  37312  4216 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+anghell+  1756  0.0  0.4  38528  5080 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+anghell+  1763  0.0  0.4  37300  4652 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+anghell+  1768  0.0  0.5  80288  5804 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+anghell+  1780  0.0  3.6 159716 37216 ?        Sl   16:54   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1695x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1695/2
+anghell+  1792  0.0  3.5 150160 36712 ?        Sl   16:54   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1695x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1695/3
+anghell+  1795  0.0  1.6 120164 17328 ?        Sl   16:54   0:00 /usr/lib/evolution/evolution-addressbook-factory
+anghell+  1815  0.0  1.6 135084 16396 ?        Sl   16:54   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1795x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1795/2
+anghell+  1827  0.0  0.6  50476  7056 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+anghell+  1861  0.0  0.7  58988  8072 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/2
+anghell+  1876  0.0  1.6  98708 17048 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd-smb-browse --spawner :1.5 /org/gtk/gvfs/exec_spaw/4
+root      1894  0.0  1.3  43812 13496 ?        S    16:54   0:00 /usr/sbin/smbd -D
+anghell+  1897  0.0  1.3  71096 13860 ?        Sl   16:54   0:00 zeitgeist-datahub
+anghell+  1905  0.0  0.0   2372   600 ?        S    16:54   0:00 /bin/sh -c /usr/lib/i386-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+anghell+  1909  0.0  0.8  54416  8464 ?        Sl   16:54   0:00 /usr/bin/zeitgeist-daemon
+anghell+  1917  0.0  1.4  71200 14428 ?        Sl   16:54   0:00 /usr/lib/i386-linux-gnu/zeitgeist-fts
+anghell+  1919  2.4  3.6 114204 36884 ?        Sl   16:54   0:07 gedit /home/anghellia/output.txt
+anghell+  1936  0.0  0.5  29304  5204 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd-metadata
+anghell+  1949  0.0  0.6  49312  6284 ?        Sl   16:54   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/8
+root      1966  0.0  1.3  43812 13512 ?        S    16:54   0:00 /usr/sbin/smbd -D
+anghell+  1997  0.0  2.4  83112 24824 ?        Sl   16:55   0:00 update-notifier
+anghell+  2020  0.0  1.5 110564 15440 ?        Sl   16:55   0:00 /usr/lib/i386-linux-gnu/unity-scope-home/unity-scope-home
+anghell+  2032  0.1  2.2 109040 22964 ?        Sl   16:55   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+anghell+  2033  0.0  1.2 115204 13176 ?        Sl   16:55   0:00 /usr/lib/i386-linux-gnu/unity-lens-files/unity-files-daemon
+anghell+  2088  0.4  3.3 122608 34344 ?        Sl   16:55   0:01 /usr/lib/gnome-terminal/gnome-terminal-server
+anghell+  2095  0.0  0.4   8096  4380 pts/4    Ss+  16:55   0:00 bash
+root      2116  0.0  0.0      0     0 ?        I    16:55   0:00 [kworker/0:4]
+anghell+  2153  0.0  0.8  74936  8272 ?        Sl   16:56   0:00 /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+anghell+  2179  0.0  0.4   8096  4308 pts/11   Ss+  16:56   0:00 bash
+anghell+  2210  0.0  0.4   8096  4456 pts/18   Ss+  16:57   0:00 bash
+anghell+  2243  0.1  0.4   8096  4512 pts/19   Ss+  16:59   0:00 bash
+anghell+  2262  0.0  0.0   2324    68 ?        Ss   16:59   0:00 ./daemon cmd.txt
+anghell+  2264  0.0  0.2   5684  2652 ?        R    16:59   0:00 /bin/ps -aux
+  PID TTY          TIME CMD
+ 1217 ?        00:00:00 systemd
+ 1218 ?        00:00:00 (sd-pam)
+ 1292 ?        00:00:00 gnome-keyring-d
+ 1295 ?        00:00:00 upstart
+ 1380 ?        00:00:00 upstart-udev-br
+ 1382 ?        00:00:00 dbus-daemon
+ 1394 ?        00:00:00 window-stack-br
+ 1415 ?        00:00:00 upstart-dbus-br
+ 1417 ?        00:00:00 upstart-dbus-br
+ 1420 ?        00:00:00 upstart-file-br
+ 1437 ?        00:00:01 ibus-daemon
+ 1451 ?        00:00:00 bamfdaemon
+ 1456 ?        00:00:00 gvfsd
+ 1462 ?        00:00:00 gvfsd-fuse
+ 1465 ?        00:00:00 ibus-dconf
+ 1473 ?        00:00:00 ibus-ui-gtk3
+ 1482 ?        00:00:00 at-spi-bus-laun
+ 1487 ?        00:00:00 dbus-daemon
+ 1490 ?        00:00:00 at-spi2-registr
+ 1494 ?        00:00:00 ibus-x11
+ 1502 ?        00:00:00 ibus-engine-sim
+ 1503 ?        00:00:00 gpg-agent
+ 1518 ?        00:00:00 hud-service
+ 1520 ?        00:00:00 unity-settings-
+ 1535 ?        00:00:00 gnome-session-b
+ 1544 ?        00:00:00 unity-panel-ser
+ 1570 ?        00:00:00 dconf-service
+ 1577 ?        00:00:00 pulseaudio
+ 1591 ?        00:00:00 indicator-messa
+ 1592 ?        00:00:00 indicator-bluet
+ 1596 ?        00:00:00 indicator-power
+ 1599 ?        00:00:00 indicator-datet
+ 1601 ?        00:00:00 indicator-keybo
+ 1602 ?        00:00:00 indicator-sound
+ 1605 ?        00:00:00 indicator-print
+ 1610 ?        00:00:00 indicator-sessi
+ 1623 ?        00:00:00 indicator-appli
+ 1659 ?        00:00:00 evolution-sourc
+ 1674 ?        00:01:01 compiz
+ 1695 ?        00:00:00 evolution-calen
+ 1702 ?        00:00:03 nautilus
+ 1704 ?        00:00:00 nm-applet
+ 1718 ?        00:00:00 gvfs-udisks2-vo
+ 1719 ?        00:00:01 gnome-software
+ 1723 ?        00:00:00 polkit-gnome-au
+ 1725 ?        00:00:00 unity-fallback-
+ 1749 ?        00:00:00 gvfs-goa-volume
+ 1756 ?        00:00:00 gvfs-gphoto2-vo
+ 1763 ?        00:00:00 gvfs-mtp-volume
+ 1768 ?        00:00:00 gvfs-afc-volume
+ 1780 ?        00:00:00 evolution-calen
+ 1792 ?        00:00:00 evolution-calen
+ 1795 ?        00:00:00 evolution-addre
+ 1815 ?        00:00:00 evolution-addre
+ 1827 ?        00:00:00 gvfsd-trash
+ 1861 ?        00:00:00 gvfsd-network
+ 1876 ?        00:00:00 gvfsd-smb-brows
+ 1897 ?        00:00:00 zeitgeist-datah
+ 1905 ?        00:00:00 sh
+ 1909 ?        00:00:00 zeitgeist-daemo
+ 1917 ?        00:00:00 zeitgeist-fts
+ 1919 ?        00:00:07 gedit
+ 1936 ?        00:00:00 gvfsd-metadata
+ 1949 ?        00:00:00 gvfsd-dnssd
+ 1997 ?        00:00:00 update-notifier
+ 2020 ?        00:00:00 unity-scope-hom
+ 2032 ?        00:00:00 unity-scope-loa
+ 2033 ?        00:00:00 unity-files-dae
+ 2088 ?        00:00:01 gnome-terminal-
+ 2153 ?        00:00:00 deja-dup-monito
+ 2262 ?        00:00:00 daemon
+ 2265 ?        00:00:00 ps
