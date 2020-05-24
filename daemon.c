@@ -34,6 +34,11 @@ void catch_sigterm(int signum) {
 	termination = true;
 }
 
+void catch_sigchld(int signum) {
+	wait(NULL);
+	sem_post(&semaphore);
+}
+
 void write_message(const char* message) {
 	int logfile = open("log.txt", O_CREAT | O_RDWR, S_IRWXU);
 	lseek(logfile, 0, SEEK_END);
@@ -44,6 +49,7 @@ void write_message(const char* message) {
 int Daemon(char* filename) {
 	signal(SIGINT, catch_sigint);
 	signal(SIGTERM, catch_sigterm);
+	signal(SIGCHLD, catch_sigchld);
 
 	openlog("Daemon", LOG_PID | LOG_CONS, LOG_DAEMON);
 	syslog(LOG_NOTICE, "Daemon is working...");
@@ -103,10 +109,11 @@ int Daemon(char* filename) {
 						exit(EXIT_FAILURE);
 					}
 				}
-				else {
-					int status;
-					wait(&status);
-					sem_post(&semaphore);
+				else if (pid != 0) { // parent
+					while (1) {
+						pause();
+						break;
+					}
 				}
 			}
 			close(output);
